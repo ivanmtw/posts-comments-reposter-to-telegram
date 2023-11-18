@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: Posts & Comments Reposter to Telegram\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-07-16 15:04+0000\n"
-"PO-Revision-Date: 2023-07-19 13:54+0000\n"
+"PO-Revision-Date: 2023-11-18 10:49+0000\n"
 "Last-Translator: \n"
 "Language-Team: English (United States)\n"
 "Language: en_US\n"
@@ -23,16 +23,16 @@ msgstr ""
 "Automatic publication of new published posts and approved comments in "
 "Telegram channels"
 
-#: posts-comments-reposter-to-telegram.php:88
-#: posts-comments-reposter-to-telegram.php:112
+#: posts-comments-reposter-to-telegram.php:91
+#: posts-comments-reposter-to-telegram.php:115
 msgid "Bot Token"
 msgstr "Bot Token"
 
-#: posts-comments-reposter-to-telegram.php:96
+#: posts-comments-reposter-to-telegram.php:99
 msgid "Enable Automatic Sending of Approved Comments to Telegram"
 msgstr "Enable Automatic Sending of Approved Comments to Telegram"
 
-#: posts-comments-reposter-to-telegram.php:72
+#: posts-comments-reposter-to-telegram.php:75
 msgid "Enable Automatic Sending of Published Posts to Telegram"
 msgstr "Enable Automatic Sending of Published Posts to Telegram"
 
@@ -44,8 +44,8 @@ msgstr "https://github.com/ivanmtw"
 msgid "https://wprepostertg.wordpress.com"
 msgstr "https://wprepostertg.wordpress.com"
 
-#: posts-comments-reposter-to-telegram.php:147
-#: posts-comments-reposter-to-telegram.php:177
+#: posts-comments-reposter-to-telegram.php:146
+#: posts-comments-reposter-to-telegram.php:173
 msgid ""
 "If There Are No Posts, Then Write a Test Post and Copy the Link to This "
 "Field (This Is Necessary to Get the Channel Chat ID)"
@@ -57,31 +57,35 @@ msgstr ""
 msgid "Ivan Matveev"
 msgstr "Ivan Matveev"
 
+#: posts-comments-reposter-to-telegram.php:256
+msgid "New Comment"
+msgstr "New Comment"
+
 #. Name of the plugin
 #| msgid "WP Posts & Comments Reposter to Telegram"
 msgid "Posts & Comments Reposter to Telegram"
 msgstr "Posts & Comments Reposter to Telegram"
 
-#: posts-comments-reposter-to-telegram.php:36
-#: posts-comments-reposter-to-telegram.php:37
+#: posts-comments-reposter-to-telegram.php:42
+#: posts-comments-reposter-to-telegram.php:43
 #| msgid "WP Reposter To Telegram"
 msgid "Reposter To Telegram"
 msgstr "WP Reposter To Telegram"
 
-#: posts-comments-reposter-to-telegram.php:65
+#: posts-comments-reposter-to-telegram.php:68
 msgid "Sending Posts and Approved Comments to Telegram"
 msgstr "Sending Posts and Approved Comments to Telegram"
 
-#: posts-comments-reposter-to-telegram.php:26
+#: posts-comments-reposter-to-telegram.php:34
 msgid "Settings"
 msgstr "Settings"
 
-#: posts-comments-reposter-to-telegram.php:144
-#: posts-comments-reposter-to-telegram.php:174
+#: posts-comments-reposter-to-telegram.php:143
+#: posts-comments-reposter-to-telegram.php:170
 msgid "Specify the chat ID, its name, or a link"
 msgstr "Specify the chat ID, its name, or a link"
 
-#: posts-comments-reposter-to-telegram.php:129
+#: posts-comments-reposter-to-telegram.php:130
 msgid ""
 "Specify the Settings for Posting Published Posts and Approved Comments in "
 "the Telegram Channel"
@@ -89,42 +93,42 @@ msgstr ""
 "Specify the Settings for Posting Published Posts and Approved Comments in "
 "the Telegram Channel"
 
-#: posts-comments-reposter-to-telegram.php:187
+#: posts-comments-reposter-to-telegram.php:183
 msgid ""
 "Specify the Token of the Bot That Will Send Approved Comments to Telegram"
 msgstr ""
 "Specify the Token of the Bot That Will Send Approved Comments to Telegram"
 
-#: posts-comments-reposter-to-telegram.php:157
+#: posts-comments-reposter-to-telegram.php:155
 msgid "Specify the Token of the Bot That Will Send Published Posts to Telegram"
 msgstr ""
 "Specify the Token of the Bot That Will Send Published Posts to Telegram"
 
-#: posts-comments-reposter-to-telegram.php:80
-#: posts-comments-reposter-to-telegram.php:104
+#: posts-comments-reposter-to-telegram.php:83
+#: posts-comments-reposter-to-telegram.php:107
 msgid "Telegram Channel Chat_ID"
 msgstr "Telegram Channel Chat_ID"
 
-#: posts-comments-reposter-to-telegram.php:158
-#: posts-comments-reposter-to-telegram.php:188
-msgid ""
-"To Get a Token, Create a Bot Using the User <a href=\"https://t.me/BotFather "
-"\" target=\"_blank\">@BotFather</a>"
-msgstr ""
-"To Get a Token, Create a Bot Using the User <a href=\"https://t.me/BotFather "
-"\" target=\"_blank\">@BotFather</a>"
-
-#: posts-comments-reposter-to-telegram.php:146
-#: posts-comments-reposter-to-telegram.php:176
-msgid ""
-"To Publish to a Private Channel, Specify a Link to Any Post in the Channel "
-"(for Example https://t.me/c/1234567890/1)"
-msgstr ""
-"To Publish to a Private Channel, Specify a Link to Any Post in the Channel "
-"(for Example https://t.me/c/1234567890/1)"
+#: posts-comments-reposter-to-telegram.php:156
+#: posts-comments-reposter-to-telegram.php:184
+#, php-format
+msgid "To Get a Token, Create a Bot Using the User %s"
+msgstr "To Get a Token, Create a Bot Using the User %s"
 
 #: posts-comments-reposter-to-telegram.php:145
-#: posts-comments-reposter-to-telegram.php:175
+#: posts-comments-reposter-to-telegram.php:172
+#| msgid ""
+#| "To Publish to a Private Channel, Specify a Link to Any Post in the "
+#| "Channel (for Example https://t.me/c/1234567890/1)"
+msgid ""
+"To Publish to a Private Channel, Specify a Link to Any Post in the Channel "
+"(f.e. https://t.me/c/1234567890/1)"
+msgstr ""
+"To Publish to a Private Channel, Specify a Link to Any Post in the Channel "
+"(for Example https://t.me/c/1234567890/1)"
+
+#: posts-comments-reposter-to-telegram.php:144
+#: posts-comments-reposter-to-telegram.php:171
 msgid ""
 "To Publish to a Public Channel, Specify Its Name or Link (for Example, "
 "@durov or https://t.me/durov)"
