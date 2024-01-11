@@ -22,6 +22,24 @@ approve a comment, the information will be automatically sent to the specified T
 Our plugin provides a simple and effective way to promote your content on the Telegram platform and make it available 
 to a large audience.
 
+## Use of 3rd Party Service
+
+This plugin integrates with a 3rd party service, Telegram, for certain functionality. The integration with Telegram allows users to receive notifications and interact with the plugin through the Telegram platform. 
+
+You can [find more information about Telegram](https://telegram.org/) and its capabilities on the Telegram website.
+
+Please note that by using this plugin, you are agreeing to the Terms of Use and Privacy Policy of Telegram. You can find more information about the terms of use and privacy policy of Telegram by following the links below:
+
+- [Telegram Terms of Use](https://telegram.org/tos)
+- [Telegram Privacy Policy](https://telegram.org/privacy)
+
+It's important to review and understand these terms, as they govern the use of the integrated 3rd party service.
+
+Please be assured that we take data security and user privacy seriously. If you have any concerns regarding the use of Telegram within this plugin, feel free to reach out to us for further clarification.
+
+We strive to ensure transparency and compliance with relevant regulations when it comes to integrating 3rd party services in our plugin.
+
+
 ## Installation
 
 This section describes how to install the plugin and get it working.
@@ -32,15 +50,15 @@ e.g.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Fill Chat_ID and Bot Tokens in Settings page `/wp-admin/options-general.php?page=posts-comments-reposter-to-telegram`
 
-== Frequently Asked Questions ==
+## Frequently Asked Questions
 
-## How to get the Chat_ID of the Telegram channel?
+### How to get the Chat_ID of the Telegram channel?
 
 1. Chat_ID for a public channel is its name, f.e. @durov или https://t.me/durov
 2. To get the Chat_ID of a private channel, create any post in the channel and copy the link to it. The plugin itself 
 gets the chat ID from this link.
 
-## How to get a bot token?
+### How to get a bot token?
 
 to get a bot token, you need to create a bot in the Telegram application using @BotFather. Find this user via Telegram 
 search, then follow his instructions. After creating a bot, you will be given its Bot Token.
